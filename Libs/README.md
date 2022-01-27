@@ -1,6 +1,6 @@
 # IDScanIDParser
 
-How to install **IDScanIDParserIOS** as a `Swift Package`, please [read here](https://github.com/IDScanNet/IDScanIDParserIOS#IDScanIDParserIOS)
+To install **IDScanIDParserIOS** as a `Swift Package`, please [read here](https://github.com/IDScanNet/IDScanIDParserIOS#IDScanIDParserIOS)
 
 ---
 
@@ -34,6 +34,6 @@ How to install **IDScanIDParserIOS** as a `Swift Package`, please [read here](ht
 
 ---
 
-### How to activate and use
+### How to Activate and Use
 
 Please [read here](https://github.com/IDScanNet/IDScanIDParserIOS#how-to-activate)

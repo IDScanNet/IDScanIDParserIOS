@@ -61,7 +61,7 @@ Then, in any target that depends on the parsers, add it to the `dependencies` ar
 
 ### Installing as XCFramework (relevant for both Swift and Objective-C projects)
 
-How to install **IDScanIDParser** as `XCFramework`, please [read here](https://github.com/IDScanNet/IDScanIDParserIOS/tree/master/Libs#IDScanIDParser)
+To install **IDScanIDParser** as `XCFramework`, please [read here](https://github.com/IDScanNet/IDScanIDParserIOS/tree/master/Libs#IDScanIDParser)
 
 ---
 
@@ -69,7 +69,7 @@ How to install **IDScanIDParser** as `XCFramework`, please [read here](https://g
 
 ### Obtaining a License Key for PDF Parser
 
-In order to receive the License Key send an email to support@idscan.net with the Bundle ID. Please be sure to provide your order number in the email once ready to upgrade from trial to production mode. A unique Serial number/Registration Key for this Bundle ID.
+In order to receive the License Key send an email to support@idscan.net with the Bundle ID. Please be sure to provide your order number in the email once ready to upgrade from trial to production mode. A unique Serial number/Registration Key is provided for this Bundle ID.
 
 ---
 
