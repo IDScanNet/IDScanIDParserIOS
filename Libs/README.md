@@ -1,12 +1,12 @@
 # IDScanIDParser
 
-To install **IDScanIDParserIOS** as a `Swift Package`, please [read here](https://github.com/IDScanNet/IDScanIDParserIOS#IDScanIDParserIOS)
+To install **IDScanIDParserIOS** as a `Swift Package`, please [read here](../../../#installation)
 
 ---
 
 ## Installing as XCFramework (relevant for both Swift and Objective-C projects)
 
-1. [Download](https://github.com/IDScanNet/IDScanIDParserIOS/archive/master.zip) and unzip the archive with **IDScanIDParserIOS**.
+1. [Download](../../../archive/master.zip) and unzip the archive with **IDScanIDParserIOS**.
 
 ---
 
@@ -36,4 +36,4 @@ To install **IDScanIDParserIOS** as a `Swift Package`, please [read here](https:
 
 ### How to Activate and Use
 
-Please [read here](https://github.com/IDScanNet/IDScanIDParserIOS#how-to-activate)
+Please [read here](../../../#how-to-activate)

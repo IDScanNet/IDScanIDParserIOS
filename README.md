@@ -61,7 +61,7 @@ Then, in any target that depends on the parsers, add it to the `dependencies` ar
 
 ### Installing as XCFramework (relevant for both Swift and Objective-C projects)
 
-To install **IDScanIDParser** as `XCFramework`, please [read here](https://github.com/IDScanNet/IDScanIDParserIOS/tree/master/Libs#IDScanIDParser)
+To install **IDScanIDParser** as `XCFramework`, please [read here](../../tree/master/Libs#installing-as-xcframework-relevant-for-both-swift-and-objective-c-projects)
 
 ---
 
