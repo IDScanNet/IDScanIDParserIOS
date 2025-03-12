@@ -6,31 +6,27 @@ import PackageDescription
 let package = Package(
     name: "IDScanIDParser",
     platforms: [
-        .iOS(.v9)
+        .iOS(.v12)
     ],
     products: [
         .library(
-            name: "IDScanPDFParser",
-            targets: ["IDScanPDFParser"]),
-        .library(
-            name: "IDScanMRZParser",
-            targets: ["IDScanMRZParser"]),
+            name: "IDScanIDParser",
+            targets: ["IDScanIDParser"]),
     ],
     targets: [
+        .target(
+            name: "IDScanIDParser",
+            dependencies: [
+                "IDScanIDParserNative"
+            ],
+            path: "Sources"),
         .binaryTarget(
-            name: "IDScanPDFParser",
-            path: "Libs/IDScanPDFParser.xcframework"
-        ),
-        .binaryTarget(
-            name: "IDScanMRZParser",
-            path: "Libs/IDScanMRZParser.xcframework"
+            name: "IDScanIDParserNative",
+            path: "Libs/IDScanIDParserNative.xcframework"
         ),
         .testTarget(
-            name: "IDScanIDParserTests",
-            dependencies: [
-                "IDScanPDFParser",
-                "IDScanMRZParser"
-            ]
-        ),
+            name: "IDParserTests",
+            dependencies: ["IDScanIDParser", "IDScanIDParserNative"]
+        )
     ]
 )
